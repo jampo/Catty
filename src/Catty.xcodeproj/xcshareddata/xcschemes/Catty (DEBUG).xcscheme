@@ -48,6 +48,16 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92EC98A91BC3C32A0003A891"
+               BuildableName = "BluetoothHelperTests.xctest"
+               BlueprintName = "BluetoothHelperTests"
+               ReferencedContainer = "container:Catty/BluetoothHelper/BluetoothHelper.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "CA7698A91B0E4A97000D0340"
                BuildableName = "Catty Tests.xctest"
                BlueprintName = "Catty Tests"
@@ -62,16 +72,6 @@
                BuildableName = "Catty UITests.xctest"
                BlueprintName = "Catty UITests"
                ReferencedContainer = "container:Catty.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "92EC98A91BC3C32A0003A891"
-               BuildableName = "BluetoothHelperTests.xctest"
-               BlueprintName = "BluetoothHelperTests"
-               ReferencedContainer = "container:Catty/BluetoothHelper/BluetoothHelper.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

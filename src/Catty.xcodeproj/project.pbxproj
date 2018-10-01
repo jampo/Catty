@@ -378,7 +378,6 @@
 		4CB0F9F220A1739400D1BE2F /* SizeSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0F9F120A1739400D1BE2F /* SizeSensor.swift */; };
 		4CB0F9F420A173B700D1BE2F /* RotationSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0F9F320A173B600D1BE2F /* RotationSensor.swift */; };
 		4CB0F9F620A1741400D1BE2F /* LayerSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0F9F520A1741400D1BE2F /* LayerSensor.swift */; };
-		4CB1FB741BC2D74F0000A2FE /* UITestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1FB731BC2D74F0000A2FE /* UITestProtocol.swift */; };
 		4CB2CFA11D7AD762009F3034 /* SetColorBrick.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2CFA01D7AD762009F3034 /* SetColorBrick.m */; };
 		4CB2CFA61D7AD7E7009F3034 /* SetColorBrick+CBXMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2CFA51D7AD7E7009F3034 /* SetColorBrick+CBXMLHandler.m */; };
 		4CB2CFAB1D7AD86D009F3034 /* SetColorBrickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2CFAA1D7AD86D009F3034 /* SetColorBrickCell.m */; };
@@ -1066,7 +1065,6 @@
 		BA1FA99D1F02AEDC0084184D /* InsertItemIntoUserListBrick.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1FA99C1F02AEDC0084184D /* InsertItemIntoUserListBrick.m */; };
 		BA1FA9A01F02B0020084184D /* InsertItemIntoUserListBrickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1FA99F1F02B0020084184D /* InsertItemIntoUserListBrickCell.m */; };
 		BA1FA9A21F02B0C80084184D /* InsertItemIntoUserListBrick+Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1FA9A11F02B0C80084184D /* InsertItemIntoUserListBrick+Instruction.swift */; };
-		BA6805AE21303B48004F004F /* VariablesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6805AD21303B48004F004F /* VariablesTests.swift */; };
 		BA9CAB541EC380CA00796056 /* AddItemToUserListBrick.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CAB531EC380CA00796056 /* AddItemToUserListBrick.m */; };
 		BA9CAB5A1EC382DB00796056 /* BrickCellListData.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CAB591EC382DB00796056 /* BrickCellListData.m */; };
 		BA9CAB5D1EC3839B00796056 /* AddItemToUserListBrick+CBXMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CAB5C1EC3839B00796056 /* AddItemToUserListBrick+CBXMLHandler.m */; };
@@ -1086,12 +1084,6 @@
 		BAEE49BB1F165C6E00F06741 /* ReplaceItemInUserListBrick.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEE49BA1F165C6E00F06741 /* ReplaceItemInUserListBrick.m */; };
 		BAEE49BE1F165CBA00F06741 /* ReplaceItemInUserListBrick+CBXMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEE49BD1F165CBA00F06741 /* ReplaceItemInUserListBrick+CBXMLHandler.m */; };
 		BAEE49C01F165D1300F06741 /* ReplaceItemInUserListBrick+Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEE49BF1F165D1300F06741 /* ReplaceItemInUserListBrick+Instruction.swift */; };
-		BC19327F21186504009DE43A /* CreateProgramTVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC19327E21186504009DE43A /* CreateProgramTVCTests.swift */; };
-		BC1EB70F2111905800D95C53 /* ObjectTVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A988832B1BCA86FF005029E8 /* ObjectTVCTests.swift */; };
-		BCFED6ED2111C04000BE57BF /* BackgroundsTVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFED6EC2111C04000BE57BF /* BackgroundsTVCTests.swift */; };
-		BCFED6F12111CA5D00BE57BF /* PocketCodeMainScreenTVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFED6EE2111C54100BE57BF /* PocketCodeMainScreenTVCTests.swift */; };
-		BCFED6F62113188700BE57BF /* MyFirstProgramTVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFED6F52113188700BE57BF /* MyFirstProgramTVCTests.swift */; };
-		BCFED6F8211318A100BE57BF /* ProgramsTVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFED6F7211318A100BE57BF /* ProgramsTVCTests.swift */; };
 		C6A06BEC1EC8CA4C0000C656 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC8B8C0B21945B560F7272 /* AlertController.swift */; };
 		CA02C5E71B14386900233FB0 /* CBSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA02C5E61B14386900233FB0 /* CBSpriteNode.swift */; };
 		CA2D44431B12305400A3B53D /* Swell.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA2D44421B12305400A3B53D /* Swell.plist */; };
@@ -1233,13 +1225,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 92EC98AA1BC3C32A0003A891;
 			remoteInfo = BluetoothHelperTests;
-		};
-		AAADA0091B9B29D500E0CA9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CADBD6D319B0E8C200C62836;
-			remoteInfo = Catty;
 		};
 		CA7698B01B0E4A97000D0340 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2795,7 +2780,6 @@
 		AA74F0901BC05FCE00D1E954 /* StartScriptCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScriptCell.m; sourceTree = "<group>"; };
 		AA74F0911BC05FCE00D1E954 /* WhenScriptCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhenScriptCell.h; sourceTree = "<group>"; };
 		AA74F0921BC05FCE00D1E954 /* WhenScriptCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhenScriptCell.m; sourceTree = "<group>"; };
-		AAADA0041B9B29D500E0CA9A /* Catty UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Catty UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAADA0081B9B29D500E0CA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAAF22831BC0CA0F0076F11E /* SetXBrick+Instruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SetXBrick+Instruction.swift"; path = "PlayerEngine/Instructions/Motion/SetXBrick+Instruction.swift"; sourceTree = "<group>"; };
 		AAAF22851BC0CA590076F11E /* SetYBrick+Instruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SetYBrick+Instruction.swift"; path = "PlayerEngine/Instructions/Motion/SetYBrick+Instruction.swift"; sourceTree = "<group>"; };
@@ -3003,13 +2987,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AAADA0011B9B29D500E0CA9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CA7698A71B0E4A97000D0340 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -3053,7 +3030,6 @@
 			children = (
 				CADBD7FB19B0E8C200C62836 /* Pocket Code.app */,
 				CA7698AA1B0E4A97000D0340 /* Catty Tests.xctest */,
-				AAADA0041B9B29D500E0CA9A /* Catty UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -7695,24 +7671,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AAADA0031B9B29D500E0CA9A /* Catty UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AAADA00D1B9B29D500E0CA9A /* Build configuration list for PBXNativeTarget "Catty UITests" */;
-			buildPhases = (
-				AAADA0001B9B29D500E0CA9A /* Sources */,
-				AAADA0011B9B29D500E0CA9A /* Frameworks */,
-				AAADA0021B9B29D500E0CA9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AAADA00A1B9B29D500E0CA9A /* PBXTargetDependency */,
-			);
-			name = "Catty UITests";
-			productName = "Catty UITests";
-			productReference = AAADA0041B9B29D500E0CA9A /* Catty UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		CA7698A91B0E4A97000D0340 /* Catty Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA7698B21B0E4A97000D0340 /* Build configuration list for PBXNativeTarget "Catty Tests" */;
@@ -7767,11 +7725,6 @@
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0900;
 				TargetAttributes = {
-					AAADA0031B9B29D500E0CA9A = {
-						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0900;
-						TestTargetID = CADBD6D319B0E8C200C62836;
-					};
 					CA7698A91B0E4A97000D0340 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -7845,7 +7798,6 @@
 			targets = (
 				CADBD6D319B0E8C200C62836 /* Catty */,
 				CA7698A91B0E4A97000D0340 /* Catty Tests */,
-				AAADA0031B9B29D500E0CA9A /* Catty UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -7868,13 +7820,6 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AAADA0021B9B29D500E0CA9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CA7698A81B0E4A97000D0340 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -8295,21 +8240,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AAADA0001B9B29D500E0CA9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BCFED6F12111CA5D00BE57BF /* PocketCodeMainScreenTVCTests.swift in Sources */,
-				BC1EB70F2111905800D95C53 /* ObjectTVCTests.swift in Sources */,
-				BCFED6F62113188700BE57BF /* MyFirstProgramTVCTests.swift in Sources */,
-				BA6805AE21303B48004F004F /* VariablesTests.swift in Sources */,
-				BCFED6F8211318A100BE57BF /* ProgramsTVCTests.swift in Sources */,
-				4CB1FB741BC2D74F0000A2FE /* UITestProtocol.swift in Sources */,
-				BC19327F21186504009DE43A /* CreateProgramTVCTests.swift in Sources */,
-				BCFED6ED2111C04000BE57BF /* BackgroundsTVCTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CA7698A61B0E4A97000D0340 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -9238,11 +9168,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AAADA00A1B9B29D500E0CA9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CADBD6D319B0E8C200C62836 /* Catty */;
-			targetProxy = AAADA0091B9B29D500E0CA9A /* PBXContainerItemProxy */;
-		};
 		CA7698B11B0E4A97000D0340 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CADBD6D319B0E8C200C62836 /* Catty */;
@@ -9302,70 +9227,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AAADA00B1B9B29D500E0CA9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Catty UITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tigerpirates.Catty-UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = Catty;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		AAADA00C1B9B29D500E0CA9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Catty UITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tigerpirates.Catty-UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = Catty;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9712,15 +9573,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AAADA00D1B9B29D500E0CA9A /* Build configuration list for PBXNativeTarget "Catty UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AAADA00B1B9B29D500E0CA9A /* Debug */,
-				AAADA00C1B9B29D500E0CA9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Catty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
