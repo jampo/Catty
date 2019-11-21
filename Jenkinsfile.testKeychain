@@ -1,0 +1,25 @@
+#!/usr/bin/env groovy
+
+pipeline {
+  agent {
+    label 'MAC'
+  }
+
+  options {
+    timeout(time: 2, unit: 'HOURS')
+    timestamps()
+    buildDiscarder(logRotator(numToKeepStr: '30', artifactNumToKeepStr: '30'))
+  }
+
+  stages {
+    stage('Unlock keychain') {
+      steps {
+        withCredentials([string(credentialsId: 'eb111b76-63f8-4546-bc26-5fcb94721e1a', variable: 'PASSWORD')])
+          script {
+            unlockMACKeychain "${PASSWORD}"
+          }
+        }
+      }
+    }
+  }
+}
